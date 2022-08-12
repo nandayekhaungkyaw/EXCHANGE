@@ -1,2 +1,2 @@
 # EXCHANGE
-<a href="project">Click here</a>
+<a href="project/css/ex.html">Click here</a>
