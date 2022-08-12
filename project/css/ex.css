@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Oleo+Script+Swash+Caps&family=Titillium+Web:ital,wght@1,300&family=Uchen&display=swap');
+
+:root{
+    --icon:rgb(127, 127, 235);
+    --word:#707070;
+    --light:rgb(240, 238, 238);
+    --dark:#000000;
+    --soft:rgb(176, 238, 240);
+
+}
+
+@font-face {
+    font-family:"pyi" ;
+    src: url(../font/Pyidaungsu-Book-1.8.3_Bold.ttf);
+}
+@font-face {
+    font-family: "cute";
+    src: url(../font/AlumniSansInlineOne-Italic.ttf);
+}
+
+
+
+
+*{
+  
+   box-sizing: border-box;
+    color: var(--word);
+   
+    border-radius: 10px ;
+}
+body{
+    position: relative;
+    animation:backInUp 2S;
+    
+}
+.app{
+    width: 800px;
+    box-sizing: border-box;
+    margin: 100px auto;
+}
+.divider{
+    height: 5px;
+  background-color: var(--dark);
+  margin-top: -15px;
+}
+.primary-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+.pri-forward{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+.pri-img{
+    width: 50px;
+
+}
+.pri-p{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+   
+
+}
+
+.pri-backward{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 40px;
+   
+
+}
+.secondary{
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.sec-container{
+    width: 150px;
+    
+  
+   
+   
+
+}
+.sec-container label{
+    display: flex;
+    font-size: 40px;
+    font-family: 'cute';
+    
+    align-items: center;
+    justify-content: space-around;
+   
+
+
+}
+#input,#from,#to{
+    
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+    
+  padding:6px 8px;
+ 
+
+}
+#input:focus-visible,#from:focus-visible,#to:focus-visible{
+    outline: none;
+}
+#input{
+    text-align: right;
+}
+
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+
+}
+
+
+  
+select::-ms-expand {	display: none; }
+select{
+   
+    appearance: none;
+}
+@-moz-document url-prefix(){
+	
+   select { width: 110%; background-position: right 30px center !important; border: none !important;}
+}
+
+.sec-btn {
+   width: 100% !important;
+   background-color: var(--icon);
+   color: var(--light);
+    font-size: 20px;
+   height: 93px;
+   text-transform: uppercase;
+  
+
+}
+.sec-btn:active{
+    background-color:var(--icon);
+    opacity: 0.5;
+}
+.table-main {
+    margin-top: 10px;
+   
+  
+    /* border-collapse: collapse; */
+    width: 100%;
+  }
+  
+  .table-main td, .table-main th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  .table-main tr{background-color:var(--soft) }
+  
+
+  
+  .table-main tr:hover {background-color: rgb(224, 212, 236);}
+  
+  .table-main th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .table-main th:last-child{
+   text-align: right;
+  }
+  .table-main tr td:last-child{
+    text-align: right;
+  }
+  #nothing td{
+
+    text-align: center !important;
+  }
+  @media only screen and (max-width: 430px) {
+   
+    *{
+       
+        scroll-behavior: smooth;
+    }
+    
+    .app{
+        width: 96%;
+        margin: 20px auto;
+       
+    }
+    .button-73{
+        
+        left: 174px !important;
+        top: -8px !important;
+    
+}
+    }
+    .tog {
+        position: absolute;
+      
+        right: -3px !important;
+        top: -17px !important;}
+
+    .primary-container{
+  width: 100%;
+  flex-flow: column;
+  align-items: flex-start;
+  margin-bottom: 12px;
+
+    }
+    .pri-backward{
+        flex-flow: column;
+        align-items: flex-end;
+        width: 100%;
+        display: flex;
+
+    
+    }
+    .secondary{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sec-container{
+        width: 100%;
+    }
+    #input{
+    
+        width: 100%;
+        font-size: 20px;
+        height: 100%;
+        
+      padding:6px 8px;
+     
+    
+    }
+    .from-to{
+        width: 48% !important;
+        margin-bottom: 12px;
+
+    }
+    .sec-btn{
+        height: 60px;
+    }
+    
+  
+
+.tog{
+    position: absolute;
+    right: 169px;
+    top: -42px;
+}
+
+  
